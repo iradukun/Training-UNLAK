@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1> Rwanda Coding Academy </h1>
+        </div>
+        <div class="form">
+            <h1 class="header"> Create account</h1>
+            <form action="signup.php" method="POST">
+                <div class="row">
+                    <label for="fname"> First Name</label>
+                    <input type="text" name="firstName" id="fname" placeholder="Enter First Name" required>
+                </div>
+                <div class="row">
+                    <label for="lname"> Last Name</label>
+                    <input type="text" name="lastName" id="lname" placeholder="Enter Last Name" required>
+                </div>
+                <div class="row">
+                    <label for="email"> Email</label>
+                    <input type="text" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="row">
+                    <label for="tel"> Telephone</label>
+                    <input type="text" name="telephone" id="tel" placeholder="Enter Telephone NUmber" required> 
+                </div>
+                <div class="row">
+                    <label for="gender"> Gender</label>
+                    <input type="radio" name="gender" id="male" value="Male"><label for="Male"
+                        class="special">Male</label>
+                    <input type="radio" name="gender" id="female" value="Female"><label for="Female"
+                        class="special">Female</label>
+                </div>
+ 
+ 
+  <div class="row">
+                    <label for="nationality"> Nationality</label>
+                    <Select name="Nationality" id="nationality">
+ 
+                        <option value=""> --Select--</option>
+                        <option value="Rwanda"> Rwanda</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Kenya"> Kenya</option>
+                    </Select>
+                </div>
+                    <div class="row">
+                        <label for="username"> User Name</label>
+                        <input type="text" name="username" id="username" placeholder="Enter your username" required>
+                    </div>
+                    <div class="row">
+                        <label for="password"> Password</label>
+                        <input type="text" name="password" id="password" placeholder="Enter your Password" required>
+                    </div>
+                    <div class="row">
+                        <label for="cpassword"> Confirm Password</label>
+                        <input type="text" name="cpassword" id="cpassword" placeholder="Confirm your Password">
+                    </div>
+                <div class="submit">
+                    <input type="submit" name="formsubmit" value="Register">
+                </div>
+            </form>
+        </div>
+        <div class="footer"> Copyright @2021 RCA</div>
+  </div>
+  </body>
+  
+</html>
