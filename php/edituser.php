@@ -1,7 +1,9 @@
 <?php
 include('./connection.php');
-
+//  we're using GET method concept to get data from one file throught the url brwoser
 $id= $_GET['thisID'];
+
+
 
 $query= mysqli_query($connection, "SELECT * FROM users WHERE id= '$id'");
 

@@ -3,7 +3,7 @@ include("./connection.php");
 echo "<link rel='stylesheet' type='text/css' href='style.css'>";
 
 $query= mysqli_query($connection, "SELECT * FROM users") or die(mysqli_error($connection)) ;
-echo $query;
+
 echo "<table>
 <tr>
 <th>NO</th>
